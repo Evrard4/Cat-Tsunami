@@ -101,7 +101,7 @@ public class CharacterController : MonoBehaviour
         if(Potos.Count > 0)
         {
             Potos[Potos.Count-1].DieAnim();
-            Destroy(Potos[Potos.Count-1].gameObject,1f);
+            Destroy(Potos[Potos.Count-1].gameObject,0.8f);
             Potos.RemoveAt(Potos.Count-1);
             return;
         }

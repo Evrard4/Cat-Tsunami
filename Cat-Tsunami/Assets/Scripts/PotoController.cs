@@ -9,14 +9,18 @@ public class PotoController : MonoBehaviour
     private Rigidbody _rb;
     private RaycastHit _hit;
     bool isJumping;
+    private Animator animator;
+    
     void Start()
     {
+        animator = GetComponentInChildren<Animator>();
         _rb = GetComponent<Rigidbody>();
         _player = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>();
     }
 
     void Update()
     {
+        animator.SetBool("isJumping", isJumping);
         if(isJumping)
         {
             if(jumpTimeCounter > 0)
@@ -47,6 +51,7 @@ public class PotoController : MonoBehaviour
 
     public void DieAnim()
     {
+        animator.SetTrigger("death");
         //TODO: Evrard, fait un truc
     }
 }

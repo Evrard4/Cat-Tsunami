@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3142522289232743908
+--- !u!1 &973924523386707628
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 733590833012019535}
-  - component: {fileID: 2064001127024228427}
-  - component: {fileID: 4630828377389184561}
+  - component: {fileID: 3859980150411731606}
+  - component: {fileID: 4929534039938280392}
+  - component: {fileID: 7510419747241806637}
   m_Layer: 0
   m_Name: image0004
   m_TagString: Untagged
@@ -18,28 +18,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &733590833012019535
+--- !u!4 &3859980150411731606
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3142522289232743908}
+  m_GameObject: {fileID: 973924523386707628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.28, y: 0.53, z: 0}
-  m_LocalScale: {x: 0.43688488, y: 0.43688488, z: 0.43688488}
+  m_LocalPosition: {x: -0.3, y: 0.51, z: 0}
+  m_LocalScale: {x: 0.46555, y: 0.46555, z: 0.46555}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7261162077896976554}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2064001127024228427
+--- !u!212 &4929534039938280392
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3142522289232743908}
+  m_GameObject: {fileID: 973924523386707628}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 48ba2ad047b321b4b812c966bceae4e4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f101568c833ab454a92bd67544f005dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -85,17 +85,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4630828377389184561
+--- !u!95 &7510419747241806637
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3142522289232743908}
+  m_GameObject: {fileID: 973924523386707628}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7a2224ab884a7ec4ca128fc0247e828d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 81c75695c7677e144adfc4a6c6f10df5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 8003632492282719135}
   - component: {fileID: 2443890348830167549}
   m_Layer: 0
-  m_Name: Poto
+  m_Name: Poto 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -138,7 +138,7 @@ Transform:
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 733590833012019535}
+  - {fileID: 3859980150411731606}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
